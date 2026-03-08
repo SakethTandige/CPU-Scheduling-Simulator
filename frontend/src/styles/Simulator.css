@@ -1,0 +1,69 @@
+.container{
+padding:40px;
+font-family:Arial;
+}
+
+h1{
+text-align:center;
+margin-bottom:30px;
+}
+
+.top-controls{
+margin-bottom:20px;
+}
+
+.top-controls select,
+.top-controls input{
+margin-left:10px;
+margin-right:20px;
+padding:6px;
+}
+
+.process-section{
+margin-bottom:20px;
+}
+
+.process-section input{
+margin-right:10px;
+padding:6px;
+}
+
+.process-section button{
+padding:6px 14px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
+}
+
+th,td{
+border:1px solid #444;
+padding:8px;
+text-align:center;
+}
+
+.simulate{
+margin-top:20px;
+padding:10px 25px;
+font-size:16px;
+cursor:pointer;
+}
+
+.results{
+margin-top:30px;
+}
+
+.gantt{
+display:flex;
+margin-top:20px;
+gap:10px;
+}
+
+.gantt-box{
+border:2px solid black;
+padding:10px 15px;
+text-align:center;
+background:#e3f2fd;
+}
