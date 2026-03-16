@@ -3,17 +3,20 @@
 body{
   margin:0;
   font-family:"Segoe UI", Arial, sans-serif;
-  background:linear-gradient(135deg,#263B6A,#1A4D2E);
+
+  background: linear-gradient(-45deg, #263B6A, #1A4D2E, #1e3a8a, #065f46);
+  background-size: 400% 400%;
+
+  animation: gradientMove 12s ease infinite;
 
   min-height:100vh;
 
   display:flex;
-  justify-content:center;   /* center horizontally */
-  align-items:flex-start;   /* start from top instead of center */
+  justify-content:center;
+  align-items:flex-start;
 
   padding:40px 20px;
   box-sizing:border-box;
-  background-attachment: fixed;
 }
 
 .about-container {
@@ -432,3 +435,25 @@ label{
   padding: 10px;
   text-align: center;
 }
+
+.load-about{
+  color: white;
+  font-size: 50px;
+}
+
+@keyframes gradientMove {
+
+  0%{
+    background-position: 0% 50%;
+  }
+
+  50%{
+    background-position: 100% 50%;
+  }
+
+  100%{
+    background-position: 0% 50%;
+  }
+
+}
+

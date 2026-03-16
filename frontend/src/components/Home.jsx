@@ -15,7 +15,7 @@ function Home() {
  return (
   <div className="home">
     <button className="start-btn" onClick={startSimulation}>
-      Let's Start
+      START SIMULATION
     </button>
   </div>
 );

@@ -12,7 +12,7 @@ function Loading() {
         className="loading-gif"
       />
 
-      <h2>Loading Simulator...</h2>
+      <h2 className="load-about">Loading Simulator...</h2>
 
     </div>
   );
