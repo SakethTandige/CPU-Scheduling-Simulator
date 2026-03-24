@@ -1,4 +1,4 @@
-Here is a clean README.md you can add to your GitHub for your CPU Scheduling Simulator (MERN) project.
+
 
 CPU Scheduling Simulator
 A web-based simulator that demonstrates different CPU Scheduling Algorithms used in Operating Systems.
